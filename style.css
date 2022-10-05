@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.text{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+}
